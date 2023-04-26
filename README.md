@@ -21,15 +21,25 @@ iCaly is a task scheduler tool that helps you manage your daily tasks and create
 
 ## Usage
 
-1. Create a CSV file named tasks.csv with columns for task name, priority (on a scale of 1-3 with 1 being the lowest and 3 being the highest), due date (in the format of YYYY-MM-DD), and duration in hours. For example:
+1. Create a CSV file named tasks.csv with columns for task name, priority (on a scale of 1-3 with 1 being the lowest and 3 being the highest), due date (in the format of YYYY-MM-DD), and duration in hours.
 
-   ```
-   Task,Duration,Due Date,Priority
-   Programming Week 8 Notes,1.5,2023-05-01,1
-   Programming Week 8 Labs,1,2023-05-01,2
-   ```
+For example, a table like this:
 
-   Note: If a task's duration exceeds the remaining time in the day, it will not be included in the schedule. The tool assumes that tasks can be scheduled from 9:00 AM to 11:00 PM. Tasks are sorted by due date and priority, with higher priority tasks taking precedence.
+
+| Task                     | Duration | Due Date   | Priority |
+| ------------------------| --------:| :--------: | :-------: |
+| Programming Week 8 Notes | 1.5      | 2023-05-01 | 1        |
+| Programming Week 8 Labs  | 1        | 2023-05-01 | 2        |
+
+Would become this:
+
+```
+Task,Duration,Due Date,Priority
+Programming Week 8 Notes,1.5,2023-05-01,1
+Programming Week 8 Labs,1,2023-05-01,2
+```
+
+Note: If a task's duration exceeds the remaining time in the day, it will not be included in the schedule. The tool assumes that tasks can be scheduled from 9:00 AM to 11:00 PM. Tasks are sorted by due date and priority, with higher priority tasks taking precedence.
 
 2. Run the script `icaly.py`.
    ```
