@@ -8,7 +8,7 @@ iCaly is a task scheduler tool that helps you manage your daily tasks and create
 
 1. Clone the repository to your local machine.
    ```
-   git clone https://github.com/your-username/icaly-task-scheduler.git
+   git clone https://github.com/RealVishy/iCaly-Task-Scheduler.git
    ```
 2. Navigate to the project directory.
    ```
