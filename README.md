@@ -12,7 +12,7 @@ iCaly is a task scheduler tool that helps you manage your daily tasks and create
    ```
 2. Navigate to the project directory.
    ```
-   cd icaly-task-scheduler
+   cd iCaly-Task-Scheduler
    ```
 3. Install the required packages using pip.
    ```
@@ -21,7 +21,7 @@ iCaly is a task scheduler tool that helps you manage your daily tasks and create
 
 ## Usage
 
-1. Create a CSV file named `tasks.csv` with columns for task name, priority, due date, and duration in hours. For example:
+1. Create a CSV file named tasks.csv with columns for task name, priority (on a scale of 1-3 with 1 being the lowest and 3 being the highest), due date (in the format of YYYY-MM-DD), and duration in hours. For example:
 
    ```
    Task,Duration,Due Date,Priority
