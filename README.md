@@ -1,6 +1,8 @@
+
+
 # iCaly Task Scheduler
 
-iCaly is a task scheduler tool that helps you manage your daily tasks and create an optimized schedule based on task priorities and due dates. It takes a CSV file containing task names, priorities, due dates and durations and outputs an iCalendar (.ics) file that can be imported into most calendar applications.
+iCaly is a task scheduler tool that helps you manage your daily tasks and create an optimized schedule based on task priorities and due dates. It takes a CSV file containing task names, priorities, due dates, and durations and outputs an iCalendar (.ics) file that can be imported into most calendar applications.
 
 ## Installation
 
@@ -19,12 +21,12 @@ iCaly is a task scheduler tool that helps you manage your daily tasks and create
 
 ## Usage
 
-1. Create a CSV file named `tasks.csv` with columns for task name, priority, and duration in hours. For example:
+1. Create a CSV file named `tasks.csv` with columns for task name, priority, due date, and duration in hours. For example:
 
    ```
-Task,Duration,Due Date,Priority
-Programming Week 8 Notes,1.5,2023-05-01,1
-Programming Week 8 Labs,1,2023-05-01,2
+   Task,Duration,Due Date,Priority
+   Programming Week 8 Notes,1.5,2023-05-01,1
+   Programming Week 8 Labs,1,2023-05-01,2
    ```
 
    Note: If a task's duration exceeds the remaining time in the day, it will not be included in the schedule. The tool assumes that tasks can be scheduled from 9:00 AM to 11:00 PM. Tasks are sorted by due date and priority, with higher priority tasks taking precedence.
@@ -51,11 +53,11 @@ END:VEVENT
 END:VCALENDAR
 ```
 
-In addition to the iCalendar file, iCaly Schedular will also print out your tasks for a quick review:
+In addition to the iCalendar file, the iCaly Scheduler will also print out your tasks for quick review:
 
 ```
 Schedule:
-1. Foundation Journal Writing (0.25 hours) from 10:36 PM to 10:51 PM
+1. Programming Week 8 Labs (1 hours) from 9:36 PM to 10:36 PM
 ```
 
 ## Contributions
