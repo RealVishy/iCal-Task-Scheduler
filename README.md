@@ -69,7 +69,7 @@ END:VCALENDAR
 
 ## Contributions
 
-Contributions to the iCarly Task Scheduler project are always welcome! If you find a bug or have a suggestion for a new feature, please open an issue on the GitHub repository or create a pull request with your proposed changes.
+Contributions to the iCaly Task Scheduler project are always welcome! If you find a bug or have a suggestion for a new feature, please open an issue on the GitHub repository or create a pull request with your proposed changes.
 
 ## License
 
