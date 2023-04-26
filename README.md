@@ -1,5 +1,3 @@
-Sure, here's an updated README.md file with instructions on how to use the iCarly task scheduler tool:
-
 # iCaly Task Scheduler
 
 iCaly is a task scheduler tool that helps you manage your daily tasks and create an optimized schedule based on task priorities and due dates. It takes a CSV file containing task names, priorities, due dates and durations and outputs an iCalendar (.ics) file that can be imported into most calendar applications.
